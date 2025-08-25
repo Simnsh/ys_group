@@ -3,7 +3,6 @@ import PageNav from "./PageNav";
 function Product() {
   return (
     <main>
-      <PageNav />
       <h2>Here are our product</h2>
       <ul>
         <li>

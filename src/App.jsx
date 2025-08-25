@@ -4,10 +4,12 @@ import Homepage from "./Homepage";
 import Product from "./Product";
 import Contact from "./Contact";
 import PageNotFound from "./PageNotFound";
+import PageNav from "./PageNav";
 
 function App() {
   return (
     <BrowserRouter>
+      <PageNav />
       <Routes>
         {/* set up two path like url/ && url/home all leads to the same page */}
         <Route path="/" element={<Homepage />} />

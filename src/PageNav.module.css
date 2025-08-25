@@ -1,0 +1,63 @@
+/* Sticky top navigation bar container */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+}
+
+/* Centers and aligns content inside the nav */
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Wraps logo and brand elements together */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Controls logo size */
+.logo {
+  width: 140px; /* your logo has text, give it some width */
+  height: auto;
+}
+
+/* Pushes links to the right side */
+.spacer {
+  flex: 1;
+}
+
+/* Container for nav links */
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Base style for nav links */
+.link {
+  padding: 0.4rem 0.6rem;
+  border-radius: 10px;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+/* Hover effect for nav links */
+.link:hover {
+  background: var(--gray-100);
+}
+
+/* Active (current page) link style */
+.active {
+  background: var(--mint);
+  color: #0b3d2a; /* readable on mint */
+  font-weight: 600;
+}

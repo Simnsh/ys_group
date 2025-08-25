@@ -1,0 +1,44 @@
+/* Full-width row that only provides the white gutters */
+.section {
+  background: var(--white);
+  padding: 0; /* remove top/bottom white space */
+}
+
+/* Centered colored band */
+.band {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  /* ensure no accidental gaps */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  border-radius: 0; /* no rounded corners so white doesn’t show */
+  box-shadow: none; /* (if you had one) */
+}
+
+/* kill default margins from headings/lists inside the band */
+.band > * {
+  margin: 0;
+}
+
+/* give controlled internal spacing INSIDE each colored band */
+.heroBand {
+  background: var(--mint);
+  padding: 0.5rem 0;
+  color: #0b3d2a;
+}
+.whyBand {
+  background: #bfe6ff;
+  padding: 0.5rem 0;
+  color: var(--text);
+}
+
+.container {
+  padding: 0 1.25rem;
+} /* side padding only */
