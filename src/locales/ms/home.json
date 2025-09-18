@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Jaring Cuci Pinggan, Span Cuci Pinggan dan Penggosok Serbaguna | Yik Seng Malaysia",
+    "description": "Jaring cuci pinggan yang tahan lama dan tidak menggores, bersama penggosok serbaguna, tersedia dengan atau tanpa span. Lembut pada gelas, kuat menanggalkan minyak. Dipercayai di Malaysia selama lebih 20 tahun."
+  },
+  "hero": {
+    "h1": "Jaring Cuci Pinggan & Penggosok Serbaguna",
+    "sub": "SIAPA KAMI",
+    "copy": "Yik Seng Houseware Trading menghasilkan jaring cuci pinggan yang tahan lama dan tidak menggores, serta penggosok serbaguna, tersedia dengan atau tanpa span. Dipercayai di Malaysia selama lebih 20 tahun, produk ini lembut pada gelas, berkesan menanggalkan minyak, dan sesuai digunakan dengan mana-mana sabun cuci pinggan."
+  },
+  "why": {
+    "heading": "Mengapa gunakan JARING PEMBERSIH Yik Seng?",
+    "items": [
+      "Membersih tanpa calar untuk pinggan, mangkuk, gelas, dan peralatan memasak",
+      "Berfungsi dengan mana-mana sabun pencuci; mudah dibilas dan cepat kering",
+      "Tersedia dengan atau tanpa span untuk keperluan pembersihan berbeza",
+      "Jaring tahan lama dan tahan bau untuk kegunaan harian"
+    ]
+  },
+  "featured": {
+    "heading": "Produk Unggulan",
+    "aria": { "carousel": "Produk unggulan" },
+    "items": {
+      "yellow-net": {
+        "alt": "Jaring cuci pinggan kuning tidak menggores dengan span"
+      },
+      "green-net": {
+        "alt": "Jaring cuci pinggan hijau serbaguna tanpa span"
+      }
+    }
+  },
+  "carousel": {
+    "prev": "Slide sebelumnya",
+    "next": "Slide seterusnya",
+    "goTo": "Pergi ke slide {{n}}",
+    "pagination": "Navigasi Karusel"
+  }
+}

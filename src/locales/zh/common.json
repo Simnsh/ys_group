@@ -1,0 +1,12 @@
+{
+  "brand": "Yik Seng Houseware Trading",
+  "nav": {
+    "home": "主页",
+    "products": "产品",
+    "contact": "联系",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "hero": { "title": "日常清洁网，更聪明的选择", "cta": "了解我们的产品" },
+  "footer": { "rights": "版权所有。" }
+}

@@ -1,0 +1,69 @@
+{
+  "header": {
+    "title": "Berikut produk kami",
+    "subtitle": "Temukan rangkaian jaring pembersih berkualitas tinggi, dipercaya rumah tangga Malaysia selama lebih dari 20 tahun"
+  },
+  "products": {
+    "round-net": {
+      "title": "Jaring Bulat",
+      "description": "Produk paling populer untuk penggunaan sehari-hari.",
+      "overlayText": "Pilihan Paling Populer",
+      "features": [
+        "Menghilangkan 99% lemak",
+        "Tahan lama",
+        "Bahan aman untuk makanan"
+      ],
+      "images": ["Jaring pembersih bulat"]
+    },
+    "sponge-net": {
+      "title": "Jaring Spons",
+      "description": "Menggabungkan kekuatan jaring dan kelembutan spons. Ideal untuk permukaan halus.",
+      "overlayText": "Lembut & Efektif",
+      "features": [
+        "Lembut pada permukaan anti-lengket",
+        "Pembersihan dual-tekstur",
+        "Mudah dibilas"
+      ],
+      "images": [
+        "Jaring spons - tampak utama",
+        "Jaring bulat kuning",
+        "Jaring bulat kuning dalam kemasan"
+      ]
+    },
+    "square-net": {
+      "title": "Jaring Kotak",
+      "description": "Pembersihan berat untuk noda membandel dan lemak. Cocok untuk pemanggang dan air fryer.",
+      "overlayText": "Tahan Berat",
+      "features": [
+        "Bahan ekstra kuat",
+        "Cocok untuk pemanggang",
+        "Tahan panas"
+      ],
+      "images": [
+        "Jaring kotak - tampak utama",
+        "Jaring kotak - tampak samping",
+        "Jaring kotak - tampak detail"
+      ]
+    }
+  },
+  "carousel": {
+    "prev": "Gambar sebelumnya",
+    "next": "Gambar berikutnya",
+    "goTo": "Pergi ke gambar {{n}}"
+  },
+  "sizes": {
+    "title": "Ukuran Tersedia",
+    "items": [
+      {
+        "name": "Ukuran Reguler",
+        "dimensions": "13cm × 13cm",
+        "note": "Cocok untuk pembersihan sehari-hari"
+      },
+      {
+        "name": "Ukuran Besar",
+        "dimensions": "16cm × 16cm",
+        "note": "Ideal untuk tugas pembersihan lebih besar"
+      }
+    ]
+  }
+}

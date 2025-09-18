@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Jaring Cuci Piring, Spons Cuci Piring, dan Penggosok Serbaguna | Yik Seng Malaysia",
+    "description": "Jaring cuci piring yang tahan lama dan tidak menggores, serta penggosok serbaguna, tersedia dengan atau tanpa spons. Lembut pada gelas, namun efektif melawan lemak. Dipercaya di Malaysia selama lebih dari 20 tahun."
+  },
+  "hero": {
+    "h1": "Jaring Cuci Piring & Penggosok Serbaguna",
+    "sub": "TENTANG KAMI",
+    "copy": "Yik Seng Houseware Trading merancang jaring cuci piring yang tahan lama dan tidak menggores, serta penggosok serbaguna—tersedia dengan atau tanpa spons. Dipercaya di Malaysia selama lebih dari 20 tahun; lembut pada gelas, efektif melawan lemak, dan cocok untuk sabun cuci piring apa pun."
+  },
+  "why": {
+    "heading": "Mengapa menggunakan Jaring Pembersih Yik Seng?",
+    "items": [
+      "Membersihkan tanpa gores untuk piring, mangkuk, gelas, dan peralatan masak",
+      "Cocok untuk semua deterjen piring; mudah dibilas dan cepat kering",
+      "Tersedia dengan atau tanpa spons untuk kebutuhan pembersihan yang berbeda",
+      "Jaring tahan lama dan tidak mudah berbau untuk pemakaian sehari-hari"
+    ]
+  },
+  "featured": {
+    "heading": "Produk Unggulan",
+    "aria": { "carousel": "Produk unggulan" },
+    "items": {
+      "yellow-net": {
+        "alt": "Jaring cuci piring kuning, tidak menggores, dengan spons"
+      },
+      "green-net": {
+        "alt": "Jaring cuci piring hijau multifungsi, tanpa spons"
+      }
+    }
+  },
+  "carousel": {
+    "prev": "Slide sebelumnya",
+    "next": "Slide berikutnya",
+    "goTo": "Pergi ke slide {{n}}",
+    "pagination": "Navigasi karusel"
+  }
+}

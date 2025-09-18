@@ -1,98 +1,350 @@
-/* Full-width row that keeps white gutters on left/right */
+/* Contact.module.css */
 .section {
-  background: var(--white);
-  padding: 0; /* no extra white on top/bottom */
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+  background: linear-gradient(135deg, #f8fffe 0%, #e8f8f5 100%);
 }
 
-/* Centered colored band (same width as nav content) */
 .band {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  position: relative;
 }
 
-/* Blue section background (your requested color) */
 .blueBand {
-  background: #9eddff;
-  color: var(--text);
-  padding: 2rem 0; /* internal vertical space */
+  background: linear-gradient(135deg, #1e40af 0%, #059669 100%);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
 }
 
-/* Inner container that aligns text with consistent side padding */
+.blueBand::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(255, 255, 255, 0.05) 0%,
+      transparent 50%
+    );
+  pointer-events: none;
+}
+
 .container {
-  padding: 0 1.25rem;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
 }
 
-/* Stack icon+heading row and paragraph vertically */
 .header {
-  display: flex;
-  flex-direction: column;
-  gap: 8px; /* spacing between titleRow and paragraph */
-}
-
-.header svg {
-  font-weight: bold;
-  flex-shrink: 0; /* prevent icon from shrinking */
+  margin-bottom: 50px;
 }
 
 .titleRow {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.titleRow svg {
+  width: 40px;
+  height: 40px;
+  color: #7dd3fc;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 
 .title {
-  font-size: 28px; /* match icon size */
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 800;
   margin: 0;
+  background: linear-gradient(45deg, #ffffff, #7dd3fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .lead {
-  margin-top: 8px; /* spacing below the icon+title row */
-  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #e0f2fe;
+  font-weight: 300;
 }
 
-/* White card for contact details */
 .card {
-  background: var(--white);
-  border: 1px solid var(--gray-200);
-  border-radius: 14px;
-  padding: 1.25rem;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
-  display: grid;
-  gap: 1rem;
-  max-width: 560px;
-  margin-left: 1.2em;
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Each contact line */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+}
+
 .item {
-  display: grid;
-  grid-template-columns: 150px 1fr;
+  display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item:hover {
+  background: linear-gradient(135deg, #f8fafc 0%, #f0fdfa 100%);
+  border-radius: 10px;
+  padding: 25px 20px;
+  margin: 0 -20px;
 }
 
 .iconLabel {
   display: flex;
   align-items: center;
-  gap: 6px; /* space between icon and text */
+  gap: 15px;
 }
 
 .iconLabel svg {
-  flex-shrink: 0;
-  color: #0b3d2a; /* match your label accent color */
+  width: 28px;
+  height: 28px;
+  color: #1e40af;
+  transition: all 0.3s ease;
+}
+
+.item:hover .iconLabel svg {
+  color: #10b981;
+  transform: scale(1.1);
 }
 
 .label {
+  font-size: 1.1rem;
   font-weight: 600;
-  color: #0b3d2a; /* deep green accent for labels */
+  color: #2c3e50;
 }
+
 .value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #059669;
   text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+.value::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(16, 185, 129, 0.1),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
 .value:hover {
-  text-decoration: underline;
+  color: white;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+}
+
+.value:hover::before {
+  left: 100%;
+}
+
+/* --- Mobile polish (append to bottom of file) --- */
+
+/* Make tap targets tall enough everywhere */
+.value {
+  min-height: 44px;
+}
+
+/* Tablets and down (refine spacing + stacking you already have) */
+@media (max-width: 768px) {
+  .section {
+    /* fallback first */
+    min-height: 50vh;
+    /* better on mobile browsers */
+    min-height: 50svh; /* small viewport height */
+    min-height: 50dvh; /* dynamic viewport height */
+
+    padding: calc(8px + env(safe-area-inset-top)) 0
+      calc(12px + env(safe-area-inset-bottom)) 0;
+  }
+
+  .header {
+    margin-bottom: 12px;
+  }
+  .titleRow {
+    flex-direction: column; /* you already had this */
+    gap: 4px; /* was 10px */
+    margin-bottom: 12px; /* a bit tighter */
+  }
+
+  /* slightly smaller icon so it snugs up visually */
+  .titleRow svg {
+    width: 28px; /* was 35px */
+    height: 28px;
+  }
+
+  .band {
+    padding: 32px 16px;
+    border-radius: 16px;
+  }
+
+  .title {
+    /* Fluid, readable headline */
+    font-size: clamp(1.9rem, 6.5vw, 2rem);
+  }
+
+  .lead {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    padding: 0 6px;
+  }
+
+  .card {
+    max-width: none; /* let card fill screen */
+    margin: 0 12px; /* side gutters */
+    padding: 24px 18px;
+    border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+  }
+
+  .item {
+    gap: 12px;
+    padding: 18px 0;
+  }
+
+  .iconLabel svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+
+  .value {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border-radius: 12px;
+  }
+}
+
+/* Small phones: tighten a bit more */
+@media (max-width: 480px) {
+  .band {
+    padding: 28px 12px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: clamp(1.7rem, 8vw, 2rem);
+  }
+
+  .card {
+    margin: 0 10px;
+    padding: 20px 14px;
+    border-radius: 12px;
+  }
+
+  .item {
+    gap: 10px;
+    padding: 16px 0;
+  }
+
+  .value {
+    padding: 13px 14px;
+    font-size: 0.98rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .titleRow {
+    gap: 2px;
+  }
+}
+
+/* No hover on touch: prevent layout shift & jittery animations */
+@media (hover: none) {
+  .item:hover {
+    background: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 25px 0;
+  }
+  .iconLabel svg {
+    transform: none;
+  }
+  .value:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+/* Respect users that prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .titleRow svg {
+    animation: none;
+  }
+  .value,
+  .value::before {
+    transition: none;
+  }
 }

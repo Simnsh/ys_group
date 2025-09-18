@@ -1,0 +1,15 @@
+{
+  "brand": "Yik Seng Houseware Trading",
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "title": "Smart everyday cleaning nets",
+    "cta": "Discover our products"
+  },
+  "footer": { "rights": "All rights reserved." }
+}

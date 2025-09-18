@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Dishwashing Net, Dishwashing Sponge and Multipurpose Scrubber | Yik Seng Malaysia",
+    "description": "Durable and non-scratch dishwashing nets and multipurpose scrubbers, available with or without sponge. Gentle on glassware, tough on grease. Trusted in Malaysia for over 20 years."
+  },
+  "hero": {
+    "h1": "Dishwashing Net & Multipurpose Scrubber",
+    "sub": "WHO WE ARE",
+    "copy": "Yik Seng Houseware Trading designs durable and non-scratch dishwashing nets and multipurpose scrubbers, available with or without sponge. Trusted in Malaysia for over 20 years, they are gentle on glassware, effective on grease, and compatible with any dish soap."
+  },
+  "why": {
+    "heading": "Why use Yik Seng's CLEANING NET?",
+    "items": [
+      "Non-scratch cleaning for plates, bowls, glassware, and cookware",
+      "Works with any dish detergent; rinses and dries quickly",
+      "Available with or without sponge for different cleaning needs",
+      "Long-lasting, odor-resistant netting for everyday use"
+    ]
+  },
+  "featured": {
+    "heading": "Featured Products",
+    "aria": { "carousel": "Featured products" },
+    "items": {
+      "yellow-net": {
+        "alt": "Yellow dishwashing net non scratch scrubber with sponge"
+      },
+      "green-net": {
+        "alt": "Green dishwashing net multipurpose kitchen scrubber without sponge"
+      }
+    }
+  },
+  "carousel": {
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "goTo": "Go to slide {{n}}",
+    "pagination": "Carousel Pagination"
+  }
+}

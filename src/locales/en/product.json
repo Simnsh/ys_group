@@ -1,0 +1,69 @@
+{
+  "header": {
+    "title": "Here are our products",
+    "subtitle": "Discover our range of high-quality cleaning nets, trusted by Malaysian households for over 20 years"
+  },
+  "products": {
+    "round-net": {
+      "title": "Round Net",
+      "description": "Most popular product for everyday use.",
+      "overlayText": "Most Popular Choice",
+      "features": [
+        "Removes 99% of grease",
+        "Long-lasting durability",
+        "Food-safe materials"
+      ],
+      "images": ["Round cleaning net"]
+    },
+    "sponge-net": {
+      "title": "Sponge Net",
+      "description": "Combines the power of a net with the gentleness of a sponge. Ideal for delicate surfaces.",
+      "overlayText": "Gentle & Effective",
+      "features": [
+        "Gentle on non-stick surfaces",
+        "Dual-texture cleaning",
+        "Easy to rinse"
+      ],
+      "images": [
+        "Sponge cleaning net - main view",
+        "Yellow round cleansing net",
+        "Yellow round cleansing net in packaging"
+      ]
+    },
+    "square-net": {
+      "title": "Square Net",
+      "description": "Heavy-duty cleaning for tough stains and stubborn grease. Perfect for grills and air fryers.",
+      "overlayText": "Heavy Duty",
+      "features": [
+        "Extra strong material",
+        "Perfect for grills",
+        "Heat resistant"
+      ],
+      "images": [
+        "Square cleaning net - main view",
+        "Square cleaning net - side view",
+        "Square cleaning net - detail view"
+      ]
+    }
+  },
+  "carousel": {
+    "prev": "Previous image",
+    "next": "Next image",
+    "goTo": "Go to image {{n}}"
+  },
+  "sizes": {
+    "title": "Available Sizes",
+    "items": [
+      {
+        "name": "Regular Size",
+        "dimensions": "13cm × 13cm",
+        "note": "Perfect for everyday cleaning"
+      },
+      {
+        "name": "Large Size",
+        "dimensions": "16cm × 16cm",
+        "note": "Ideal for bigger cleaning tasks"
+      }
+    ]
+  }
+}

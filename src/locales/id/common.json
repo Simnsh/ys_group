@@ -1,0 +1,15 @@
+{
+  "brand": "Yik Seng Houseware Trading",
+  "nav": {
+    "home": "Beranda",
+    "products": "Produk",
+    "contact": "Kontak",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "hero": {
+    "title": "Jaring pembersih untuk kebutuhan harian",
+    "cta": "Temukan produk-produk kami"
+  },
+  "footer": { "rights": "Hak cipta dilindungi." }
+}
