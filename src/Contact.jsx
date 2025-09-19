@@ -69,7 +69,7 @@ function Contact() {
 
                 <span className={styles.label}>Email </span>
               </div>
-              <a className={styles.value} href="mailto:ys_group@gmail.com">
+              <a className={styles.value} href="mailto:yikseng66@gmail.com">
                 ys_group@gmail.com
               </a>
             </div>
