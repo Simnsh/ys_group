@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Homepage.module.css";
-import { Helmet } from "react-helmet-async";
 
 function Homepage() {
   const { t } = useTranslation("home");
@@ -39,11 +38,9 @@ function Homepage() {
 
   return (
     <>
-      <Helmet>
-        <title>{t("seo.title")}</title>
-        <meta name="description" content={t("seo.description")} />
-        <link rel="canonical" href="https://yiksenghousewaretrading.com/" />
-      </Helmet>
+      <title>{t("seo.title")}</title>
+      <meta name="description" content={t("seo.description")} />
+      <link rel="canonical" href="https://yiksenghousewaretrading.com/" />
 
       <main>
         {/* Section 1 */}
