@@ -48,7 +48,7 @@ function Contact() {
                 </svg>
                 <span className={styles.label}>WhatsApp </span>
               </div>
-              <a className={styles.value} href="https://wa.me/60110007777">
+              <a className={styles.value} href="https://wa.me/60165292131">
                 +6(016)-529-2131
               </a>
             </div>
