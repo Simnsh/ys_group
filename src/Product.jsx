@@ -114,13 +114,6 @@ function Product() {
                       ))}
                     </div>
                   )}
-
-                  {/* Optional overlay */}
-                  {overlayText && (
-                    <div className={styles.imageOverlay}>
-                      <p className={styles.overlayText}>{overlayText}</p>
-                    </div>
-                  )}
                 </div>
 
                 <div className={styles.cardContent}>
