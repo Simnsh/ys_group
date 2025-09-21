@@ -13,18 +13,18 @@ function Product() {
       images: [
         { src: "/blue_sponge_net.jpeg" },
         { src: "/yellow_sponge_net.jpeg" },
-        { src: "pink_sponge_ne.jpeg" },
-        { src: "brown_sponge.jpg" },
+        { src: "/pink_sponge_ne.jpeg" },
+        { src: "/brown_sponge.jpg" },
         { src: "/yellow_sponge_in_packg.jpeg" },
       ],
     },
     {
       id: "square-net",
       images: [
-        { src: "yellow_square.jpeg" },
-        { src: "green_square.jpeg" },
-        { src: "pink_square.jpeg" },
-        { src: "brown_square.jpeg" },
+        { src: "/yellow_square.jpeg" },
+        { src: "/green_square.jpeg" },
+        { src: "/pink_square.jpeg" },
+        { src: "/brown_square.jpeg" },
       ],
     },
   ];
